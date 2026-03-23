@@ -5,7 +5,7 @@ import numpy as np
  
 classifier = cv2.CascadeClassifier(r"C:\Users\LENOVO\OneDrive\Desktop\FACE DETECTION\FACE DETECTION\haarcascade_frontalface_default (1).xml")
 
-url = "http://10.65.216.245:8080/shot.jpg"
+url = "http://192.65.216.245:8080/shot.jpg"
 
 
 data = []
