@@ -13,7 +13,7 @@ classifier = cv2.CascadeClassifier(r'C:\Users\LENOVO\OneDrive\Desktop\FACE DETEC
 
 model = load_model(r"C:\Users\LENOVO\OneDrive\Desktop\FACE DETECTION\FACE DETECTION\recognization_model.h5")
 
-URL = 'http://10.190.86.69:8080/shot.jpg'
+URL = 'http://192.190.86.69:8080/shot.jpg'
 
 
 def get_pred_label(pred):
